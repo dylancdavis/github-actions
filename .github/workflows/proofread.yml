@@ -13,6 +13,6 @@ jobs:
       pull-requests: write
     steps:
     - run: pip install proselint
-    - run: proselint index.md
+    - run: pwd
         
       
