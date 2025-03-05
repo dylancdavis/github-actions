@@ -14,7 +14,6 @@ jobs:
     steps:
     - run: |
         pip install proselint
-        echo hello
-        echo $(ls)
+        pwd
         
       
