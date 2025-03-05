@@ -12,8 +12,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-    - run: |
-        pip install proselint
-        pwd
+    - run: pip install proselint
+    - run: proselint index.md
         
       
