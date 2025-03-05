@@ -12,7 +12,11 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-    - run: pip install proselint
-    - run: pwd
+      - name: install proselint
+        run: pip install proselint
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: run proselint on markdown
+        run: find . -name "*.md" | xargs proselint
         
       
