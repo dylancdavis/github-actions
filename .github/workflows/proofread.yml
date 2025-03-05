@@ -1,0 +1,20 @@
+name: "Proofread .md files for syntax or style issues"
+
+on:
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  write_good_job:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    name: Lint markdown
+    steps:
+    - uses: actions/checkout@v2
+    - name: write-good action step
+      id: write-good
+      uses: tomwhross/write-good-action@v1.6
+    - name: Get the write-good output
+      run: echo "${{ steps.write-good.outputs.result }}"
