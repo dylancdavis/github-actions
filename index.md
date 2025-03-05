@@ -1,1 +1,1 @@
-lorem ipsum dolor sit amet
+This sentance contains a typo.
