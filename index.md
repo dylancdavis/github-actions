@@ -1,1 +1,1 @@
-This sentance does contain a typo.
+So the cat was stolen.
