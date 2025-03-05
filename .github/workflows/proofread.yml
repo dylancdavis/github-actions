@@ -14,6 +14,7 @@ jobs:
     steps:
     - run: |
         pip install proselint
-        ls
+        echo hello
+        echo $(ls)
         
       
