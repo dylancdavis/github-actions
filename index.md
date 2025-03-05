@@ -1,1 +1,1 @@
-This sentance contains a typo.
+This sentence does not contain a typo.
