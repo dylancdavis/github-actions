@@ -1,1 +1,2 @@
-This sentence does not contain a typo.
+So the cat was stolen.
+John is a very unique boy.
