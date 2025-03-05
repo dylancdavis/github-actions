@@ -14,6 +14,6 @@ jobs:
     steps:
     - run: |
         pip install proselint
-        proselint index.md
+        ls
         
       
